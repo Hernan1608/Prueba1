@@ -142,7 +142,7 @@ a {
 
 
 .biliboard.electronic:before {
-	background: linear-gradient( 90deg, #EA238D, #EA238D, #EA238D, #fafafa, #fafafa ) no-repeat;
+	background: radial-gradient( #EA238D, #EA238D, #EA238D, #EA238D, #fafafa, #fafafa ) no-repeat;
 	background-size: 150px 50px;
 	animation: electronic 2s infinite linear;
 }
