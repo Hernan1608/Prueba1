@@ -90,27 +90,7 @@ a {
 	
 }
 
-@keyframes radial {
-	
-	from {
-		background-position: 0 0;
-	}
-	to {
-		background-position: 0 60px;
-	}
-	
-}
 
-@keyframes repeating {
-	
-	from {
-		background-position: 0 0;
-	}
-	to {
-		background-position: 0 85px;
-	}
-	
-}
 
 @keyframes electronic {
 	
@@ -136,7 +116,9 @@ a {
 	position: relative;
 	background: #fff;
 	color: #333;
-	font: 13px open, tahoma;
+	font-family: "open";
+	font-style: normal;
+	font-weight: 300;
 }
 .biliboard:before {
 	content: '';
@@ -146,7 +128,6 @@ a {
 	border-radius: 3px;
 	transform: scale( 1.02, 1.08 );
 	position: absolute;
-	background: #f00;
 	background: linear-gradient( 90deg, #fafafa, #fafafa, #1D8EF7, #fafafa, #fafafa );
 	background-position: 55px 0;
 	top: 0;
@@ -155,15 +136,6 @@ a {
 	z-index: -1;
 }
 
-.biliboard.radial:before {
-	background: radial-gradient( #fafafa, #fafafa, #F2A61A, #fafafa, #fafafa );
-	animation: radial 1s infinite linear;
-}
-
-.biliboard.repeating:before {
-	background: repeating-linear-gradient( -45deg, #fafafa, #fafafa 30px, #5FC914 30px, #5FC914 60px ) fixed;
-	animation: repeating 1s infinite linear;
-}
 
 .biliboard.electronic:before {
 	background: radial-gradient( #EA238D, #EA238D, #EA238D, #EA238D, #fafafa, #fafafa ) no-repeat;
