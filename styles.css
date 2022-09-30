@@ -6,20 +6,22 @@ html, body {
 }
 .tarjeta{
   width: 500px;
-  height: 200px;
+  height: 300px;
   margin: 10px;
   background-color: rgb(0, 0, 0);
-  border-radius: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .error {
   color: #FFF;
-  display: inline-block;
-  font-size: 0.7rem;
-  margin: 0 0.3rem;
+  display: flex;
+  font-family: "open";
+	font-style: normal;
+	font-weight: 300;
+  text-align: center;
 }
 
 button {
@@ -51,6 +53,7 @@ input {
   all: initial;
   font: inherit;
   background: rgb(0, 0, 0);
+  border-style: solid ;
   color: #FFF;
   padding: 1em 0.5em;
   text-align: center;
@@ -70,7 +73,6 @@ input {
 	box-sizing: border-box;
 }
 
-
 a {
 	display: block;
 	margin: auto;
@@ -89,8 +91,6 @@ a {
 	}
 	
 }
-
-
 
 @keyframes electronic {
 	
