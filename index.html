@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Sol Lucero, Encriptador de text, ONE Alura grupo 3">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <title>Encriptador de textos</title>
+  </head>
+  <body>
+      <main style="display: flex; align-items: center; flex-items: center; justify-content: center; height: 80vh">
+        <!--aqui para ingresar texto a encriptar-->
+        <div class="tarjeta num1">
+          <div class="mensaje-contenedor">
+            <input type="text" id="mensaje" placeholder="Ingrese el mensaje a encriptar">
+            <div class="contenedor-errores">
+            </div>
+          </div>
+         <div class="contenedor-botones">
+            <a href="#" id="encriptar" class="biliboard">Encriptar</a>
+            <a href="#" id="desencriptar" class="biliboard">Desencriptar</a>
+          </div>
+        </div>
+        <!--Muestra resultado-->
+          <div class="tarjeta num2">
+              <div class="mensaje-contenedor">
+                  <input type="text" id="resultado" placeholder="Su mensaje encriptado es:">
+              </div>
+              <div class="contenedor-botones">
+              <a href="#" id="copiar" class="biliboard electronic">Copiar</a>
+              <a href="#" id="escuchar" class="biliboard electronic">Enviar mensaje</a>
+              </div>
+            </div>
+      </main>
+  
+      <script src="script.js"></script>
+  </body>
+  </html>
